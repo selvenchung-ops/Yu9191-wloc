@@ -13,19 +13,19 @@
 ## 订阅地址
 
 **Surge:**
-https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.sgmodule
+https://raw.githubusercontent.com/zbklk/Yu9191-wloc/refs/heads/main/modules/wloc.sgmodule
 
 **Quantumult X:**
-https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.conf
+https://raw.githubusercontent.com/zbklk/Yu9191-wloc/refs/heads/main/modules/wloc.conf
 
 **Loon:**
-https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.lpx
+https://raw.githubusercontent.com/zbklk/Yu9191-wloc/refs/heads/main/modules/wloc.lpx
 
 **Stash:**
-https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.stoverride
+https://raw.githubusercontent.com/zbklk/Yu9191-wloc/refs/heads/main/modules/wloc.stoverride
 
 **Shadowrocket(小火箭):**
-https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.module
+https://raw.githubusercontent.com/zbklk/Yu9191-wloc/refs/heads/main/modules/wloc.module
 
 > Egern 可直接使用 Surge 模块
 > Stash 请直接订阅上面的 `.stoverride`，无需用 Script Hub 转换
@@ -219,7 +219,7 @@ cd worker && npm install && npm test
 
 **一键部署（Workers）：**
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Yu9191/wloc/tree/main/worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/zbklk/Yu9191-wloc/tree/main/worker)
 
 > 一键部署仅支持 Workers 模式，点击按钮后按提示授权即可完成部署。
 
@@ -227,8 +227,8 @@ cd worker && npm install && npm test
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/Yu9191/wloc.git
-cd wloc/worker
+git clone https://github.com/zbklk/Yu9191-wloc.git
+cd Yu9191-wloc/worker
 
 # 2. 安装依赖
 npm install
@@ -250,8 +250,8 @@ npm run deploy
 Pages 部署不支持一键按钮，需要手动执行：
 
 ```bash
-git clone https://github.com/Yu9191/wloc.git
-cd wloc/worker
+git clone https://github.com/zbklk/Yu9191-wloc.git
+cd Yu9191-wloc/worker
 npm install
 npm run pages:deploy
 ```
